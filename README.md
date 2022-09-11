@@ -1,1 +1,2 @@
-script that runs a C file through the preprocessor and save the result into another file
+0x00. C - Hello, World
+0x01. C - Variables, if, else, while
