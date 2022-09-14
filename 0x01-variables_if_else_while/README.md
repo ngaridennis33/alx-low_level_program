@@ -9,3 +9,4 @@
 9. program that prints all possible combinations of single-digit numbers
 10. program that prints all possible different combinations of two digits
 11.  program that prints all possible different combinations of three digits
+12. program that prints all possible combinations of two two-digit numbers
