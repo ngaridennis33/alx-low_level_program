@@ -10,3 +10,4 @@
 9. program that prints the numbers from 1 to 100, followed by a new line
 10. function that prints a triangle, followed by a new line.
 11. program that finds and prints the largest prime factor of the number 612852475143
+12. function that prints an integer
