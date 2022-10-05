@@ -1,9 +1,9 @@
 # include <stdio.h>
 
 /**
-* main - prints the name of the program 
-* argc: number of arguments passed to the function 
-* @argv: argument vector of pointers to string 
+* main - prints the name of the program
+* argc: number of arguments passed to the function
+* @argv: argument vector of pointers to string
 * Return: always 0
 */
 
