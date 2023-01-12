@@ -12,9 +12,10 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_head_ptr = malloc(sizeof(list_t));
-	char *s2 = strdup(str);
+	char *copy;
+	copy = strdup(str);
 	
-	size_t length = strlen(s2);
+	size_t length = strlen(copy);
 
 
 	if (*head == NULL)
