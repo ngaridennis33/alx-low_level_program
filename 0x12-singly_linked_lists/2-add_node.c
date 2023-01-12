@@ -14,8 +14,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *new_head_ptr = malloc(sizeof(list_t));
 
 	
-	//copy = strlen(str);
-	int length = sizeof(str);
+	unsigned int length = strlen(str);
 
 
 	if (*head == NULL)
@@ -30,5 +29,5 @@ list_t *add_node(list_t **head, const char *str)
 		*head = new_head_ptr;
 	}
 
-	return *head;
+	return (*head);
 }
