@@ -9,14 +9,15 @@
 * Return: Address of new element, NULL if it fails
 */
 
-void add_node(list_t **head, const char *str, unsigned int length)
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_head_ptr = malloc(sizeof(list_t));
+	size_t length = strlen(str);
 
 
 	if (*head == NULL)
 	{
-		exit(0);
+		return NULL;
 	}
 	else
 	{
@@ -25,4 +26,6 @@ void add_node(list_t **head, const char *str, unsigned int length)
 		new_head_ptr->next = *head;
 		*head = new_head_ptr;
 	}
+
+	return *head;
 }
